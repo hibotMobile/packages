@@ -34,7 +34,7 @@ dependencies:
     git:
       url: https://github.com/hibotMobile/packages
       path: packages/url_launcher/url_launcher_ios/
-      ref: url_launcher-v6.1.14
+      ref: url_launcher-v6.1.14_fixed
 
   # Allow either the pure-native or Dart/native hybrid versions of the desktop
   # implementations, as both are compatible.
