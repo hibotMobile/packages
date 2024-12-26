@@ -29,7 +29,13 @@ dependencies:
   flutter:
     sdk: flutter
   url_launcher_android: ^6.0.13
-  url_launcher_ios: ^6.0.13
+  #url_launcher_ios: ^6.0.13
+  url_launcher_ios:
+    git:
+      url: https://github.com/hibotMobile/packages
+      path: packages/url_launcher/url_launcher_ios/
+      ref: url_launcher-v6.1.14
+
   # Allow either the pure-native or Dart/native hybrid versions of the desktop
   # implementations, as both are compatible.
   url_launcher_linux: ">=2.0.0 <4.0.0"
